@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+
+* {
+  --cor-fundo: #232830;
+  --cor-branco: #ffffff;
+  --cor-cinza-claro: #909090;
+  --cor-destaque: #ff7575;
+
+  background-color: var(--cor-fundo);
+  color: var(--cor-branco);
+  padding: 0;
+  margin:0
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Recursive;
+}
+
+header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

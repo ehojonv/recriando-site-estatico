@@ -1,0 +1,16 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__titulo {
+    font-size: 4em;
+    color: var(--cor-destaque);
+}
+
+.banner__texto {
+    font-size: 1.8em;
+    color: var(--cor-branco);
+    font-weight: 100;
+}
