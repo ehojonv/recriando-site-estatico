@@ -6,7 +6,6 @@
 
 - [Visão Geral](#-visão-geral)
 - [Funcionalidades](#-funcionalidades)
-- [Demonstração](#-demonstração)
 - [Como Visualizar o Projeto](#-como-visualizar-o-projeto)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Contribuição](#-contribuição)
@@ -21,10 +20,6 @@ Este projeto é uma recriação fiel de um design proposto no Figma, com o objet
 - **HTML5 Semântico**: Estruturação adequada do conteúdo.
 - **CSS3 Responsivo**: Estilização que se adapta a diferentes tamanhos de tela.
 - **Fidelidade ao Design**: Reprodução precisa do layout proposto.
-
-## 🎥 Demonstração
-
-![Demonstração do Projeto](link-para-gif-ou-imagem-demonstrativa)
 
 ## 🚀 Como Visualizar o Projeto
 
