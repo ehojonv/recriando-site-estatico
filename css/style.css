@@ -5,6 +5,7 @@
   --cor-branco: #ffffff;
   --cor-cinza-claro: #909090;
   --cor-destaque: #ff7575;
+  --cor-azul: #4699E0;
 
   background-color: var(--cor-fundo);
   color: var(--cor-branco);

@@ -6,7 +6,9 @@
     <title>Writings.dev</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/cabecalho.css" />
-    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/conteudo.css" />
+    <link rel="stylesheet" href="./css/rodape.css" />
   </head>
   <body>
     <header class="cabecalho">
@@ -20,47 +22,183 @@
 
     <main>
       <div class="banner">
-        <img class="banner__img" src="./img/img-logo.png" alt="Logo writings.dev" />
+        <img
+          class="banner__img"
+          src="./img/img-logo.png"
+          alt="Logo writings.dev"
+        />
         <h2 class="banner__titulo">Writings for Developers</h2>
-        <h3 class="banner__texto">Curated collection of articles for busy developers</h3>
+        <h3 class="banner__texto">
+          Curated collection of articles for busy developers
+        </h3>
       </div>
 
-      <div>
-        <ul>
+      <div class="conteudo">
+        <ul class="conteudo__filtro">
           <li>
-            <button><img src="" alt="" /></button>
+            <a onclick="">
+              <img src="./img/Grid Icon.png" alt="Grid" />
+            </a>
           </li>
           <li>
-            <button>
-              <img src="" alt="" />
-            </button>
+            <a onclick="">
+              <img src="./img/List Icon.png" alt="List" />
+            </a>
           </li>
-          <li><a href="#">Javascript</a></li>
-          <li><a href="#">DevOps</a></li>
-          <li><a href="#">Cloud</a></li>
-          <li><a href="#">Terraform</a></li>
-          <li><a href="#">Architecture</a></li>
-          <li><a href="#">Scalability</a></li>
-          <li><a href="#"></a>Explainers</li>
+          <li>
+            <a onclick="">JavaScript</a>
+          </li>
+          <li>
+            <a onclick="">DevOps</a>
+          </li>
+          <li><a onclick="">Cloud</a></li>
+          <li>
+            <a onclick="">Terraform</a>
+          </li>
+          <li>
+            <a onclick="">Architecture</a>
+          </li>
+          <li>
+            <a onclick="">Scalability</a>
+          </li>
+          <li>
+            <a onclick="">Explainers</a>
+          </li>
         </ul>
-        <div>
-            <div class="card">
-                <img src="" alt="">
-                <p class="card__titulo">Build continuous integration pipelines with GitHub Actions</p>
-                <p class="card__descr">GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
-                <div class="card_info">
-                    <p class="card__info__data">June 24, 2022</p>
-                    <p class="card__info__tag">DevOps</p>
-                </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./img/img-imagem-1.png" alt="Imagem 1" />
+            <p class="card__titulo">
+              Build continuous integration pipelines with GitHub Actions
+            </p>
+            <p class="card__descr">
+              GitHub actions provide a really powerful way to integrate
+              continuous integration and delivery into your applications.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">June 24, 2022</p>
+              <p class="card__info__tag">DevOps</p>
             </div>
+          </div>
+          
+          <div class="card">
+            <img src="./img/img-imagem-2.png" alt="Imagem 2" />
+            <p class="card__titulo">Mastering JavaScript Async/Await</p>
+            <p class="card__descr">
+              Learn how to effectively use async/await in JavaScript to write cleaner, more readable asynchronous code.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">July 10, 2022</p>
+              <p class="card__info__tag">JavaScript</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="./img/img-imagem-3.png" alt="Imagem 3" />
+            <p class="card__titulo">A Guide to Responsive Web Design</p>
+            <p class="card__descr">
+              Discover the best practices for creating responsive websites that work seamlessly across devices.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">August 5, 2022</p>
+              <p class="card__info__tag">Web Design</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="./img/img-imagem-4.png" alt="Imagem 4" />
+            <p class="card__titulo">Understanding Docker Containers</p>
+            <p class="card__descr">
+              Get a comprehensive introduction to Docker and how it simplifies software deployment.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">September 14, 2022</p>
+              <p class="card__info__tag">DevOps</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="./img/img-imagem-5.png" alt="Imagem 5" />
+            <p class="card__titulo">Introduction to Machine Learning</p>
+            <p class="card__descr">
+              Learn the basics of machine learning and how it's transforming industries worldwide.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">October 21, 2022</p>
+              <p class="card__info__tag">AI & ML</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="./img/img-imagem-6.png" alt="Imagem 6" />
+            <p class="card__titulo">The Basics of RESTful APIs</p>
+            <p class="card__descr">
+              Understand how REST APIs work and how to build your own using best practices.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">November 3, 2022</p>
+              <p class="card__info__tag">Backend</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="./img/img-imagem-7.png" alt="Imagem 7" />
+            <p class="card__titulo">Getting Started with React</p>
+            <p class="card__descr">
+              A beginner-friendly guide to understanding the fundamentals of React.js.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">December 12, 2022</p>
+              <p class="card__info__tag">Frontend</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="./img/img-imagem-8.png" alt="Imagem 8" />
+            <p class="card__titulo">How to Secure Your Web Applications</p>
+            <p class="card__descr">
+              Learn essential security practices to protect your applications from cyber threats.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">January 15, 2023</p>
+              <p class="card__info__tag">Security</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="./img/img-imagem-9.png" alt="Imagem 9" />
+            <p class="card__titulo">Building Scalable Node.js Applications</p>
+            <p class="card__descr">
+              Explore techniques for designing and maintaining scalable Node.js applications.
+            </p>
+            <div class="card__info">
+              <p class="card__info__data">February 8, 2023</p>
+              <p class="card__info__tag">Backend</p>
+            </div>
+          </div>
+          
         </div>
-        <nav></nav>
+        <ul class="secoes">
+          <li><a onclick="">Previous</a></li>
+          <li><a onclick="">1</a></li>
+          <li><a onclick="" class="ativo">2</a></li>
+          <li><a onclick="">3</a></li>
+          <li><a onclick="">4</a></li>
+          <li><a onclick="">5</a></li>
+          <li><a onclick="">Next</a></li>
+        </ul>
       </div>
     </main>
 
-    <footer>
-      <p>writings.dev</p>
-      <p>twitter</p>
+    <footer class="rodape">
+      <div class="rodape__titulo">
+        <p>writings.dev</p>
+        <a href="#">by @kamrify</a>
+      </div>
+      <a href="" class="rodape__twitter">
+        <img src="./img/img-twitter-logo.png" alt="Twitter" />
+        <p>Follow @writingsdev</p>
+      </a>
     </footer>
   </body>
 </html>
