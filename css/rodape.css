@@ -1,37 +1,38 @@
 .rodape {
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 3em 0 2em 0;
-    padding-top: 3em;
-    border-top: 1px #4D4D4D solid;
-    font-size: 0.8em;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3em 0 2em 0;
+  padding-top: 3em;
+  border-top: 1px #4d4d4d solid;
+  font-size: 0.8em;
 }
 
-.rodape__titulo, .rodape__twitter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.rodape__titulo,
+.rodape__twitter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .rodape__titulo p {
-    padding: 0.2em;
+  padding: 0.2em;
 }
 
 .rodape__titulo a {
-    padding: 0.4em;
-    background-color: var(--cor-azul);
-    border-radius: 0.3em;
-    text-decoration: none;
+  padding: 0.4em;
+  background-color: var(--cor-azul);
+  border-radius: 0.3em;
+  text-decoration: none;
 }
 
 .rodape__twitter {
-    padding: 0.4em;
-    background-color: var(--cor-azul);
-    border-radius: 0.3em;
-    text-decoration: none;
+  padding: 0.4em;
+  background-color: var(--cor-azul);
+  border-radius: 0.3em;
+  text-decoration: none;
 }
 
 .rodape__twitter > * {
-    background-color: var(--cor-azul);
-    padding: 0.2em;
+  background-color: var(--cor-azul);
+  padding: 0.2em;
 }

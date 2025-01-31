@@ -1,127 +1,128 @@
 .conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: 1px #4D4D4D solid;
-    width: 100%;
-    margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px #4d4d4d solid;
+  width: 100%;
+  margin-top: 5em;
 }
 
 .conteudo__filtro {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    padding: 0.2em 1em 3em 1em;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0.2em 1em 3em 1em;
 }
 
 .conteudo__filtro a {
-    display: inline-block;
-    text-decoration: none;
-    margin: 0.8em;
-    color: var(--cor-cinza-claro);
-    font-style: italic;
-    font-size: 1.3em;
-    transition: transform 0.5s ease;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0.8em;
+  color: var(--cor-cinza-claro);
+  font-style: italic;
+  font-size: 1.3em;
+  transition: transform 0.5s ease;
 }
 
 .conteudo__filtro a:hover {
-    color: var(--cor-branco);
-    transform: translateY(0.2em);
-    cursor: pointer;
+  color: var(--cor-branco);
+  transform: translateY(0.2em);
+  cursor: pointer;
 }
 
 .conteudo__filtro a:has(img) {
-    margin: 0.2em;
-    transition: filter 0.3s ease-in;
+  margin: 0.2em;
+  transition: filter 0.3s ease-in;
 }
 
 .conteudo__filtro a:hover img {
-    filter: brightness(2);
+  filter: brightness(2);
 }
 
 .conteudo__filtro a:has(img) img {
-    transition: filter 0.3s ease-in;
+  transition: filter 0.3s ease-in;
 }
 
 .conteudo__filtro a:has(img):hover {
-    transform: none;
+  transform: none;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 0 3em 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 0 3em 2em;
 }
 
 .card {
-    background-color: var(--cor-branco);
-    padding: 1em;
-    border-radius: 2em;
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2em;
+  background-color: var(--cor-branco);
+  padding: 1em;
+  border-radius: 2em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
 }
 
-.card > *, .card > * > * {
-    background-color: var(--cor-branco);
-    color: var(--cor-fundo);
+.card > *,
+.card > * > * {
+  background-color: var(--cor-branco);
+  color: var(--cor-fundo);
 }
 
 .card__titulo {
-    font-size: 1.2em;
-    font-weight: 800;
-    margin: 0.5em;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin: 0.5em;
 }
 
 .card__descr {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .card__info {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .card__info p {
-    font-size: 0.9em;
-    font-weight: 370;
+  font-size: 0.9em;
+  font-weight: 370;
 }
 
 .card__info p::before {
-    content: "•";
-    color: var(--cor-cinza-claro);
-    font-size: 1.2em;
-    margin-right: 8px;
+  content: "•";
+  color: var(--cor-cinza-claro);
+  font-size: 1.2em;
+  margin-right: 8px;
 }
 
 .secoes {
-    display: flex;
-    justify-content: space-between;
-    width: 20%;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
 }
 
 .secoes li {
-    list-style: none;
+  list-style: none;
 }
 
 .secoes li a {
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 0.8em;
-    font-style: italic;
-    color: var(--cor-cinza-claro);
-    padding: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-style: italic;
+  color: var(--cor-cinza-claro);
+  padding: 1em;
 }
 
 .secoes li a:hover {
-    color: var(--cor-branco);
+  color: var(--cor-branco);
 }
 
 .secoes li a.ativo {
-    color: var(--cor-destaque);
-    border-top: 1px var(--cor-destaque) solid;
+  color: var(--cor-destaque);
+  border-top: 1px var(--cor-destaque) solid;
 }
