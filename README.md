@@ -52,4 +52,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma *issue* ou e
 Para mais informações ou dúvidas, entre em contato:
 
 - GitHub: [ehojonv](https://github.com/ehojonv)
-- 0 Linkedin: [João](https://www.linkedin.com/in/joao-v-alves/)
+- Linkedin: [João](https://www.linkedin.com/in/joao-v-alves/)
